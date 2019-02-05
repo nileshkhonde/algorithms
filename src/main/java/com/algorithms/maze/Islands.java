@@ -27,57 +27,61 @@ Islands o = new Islands();
 }
 
 int numberOfIsland(int[][] matrix) {
+	boolean[][] visited = new boolean[matrix.length][matrix[0].length];
+	
 	int numOfIsland = 0;
-	for(int i=0;i<matrix.length;i++) {
-		for(int j=0;j<matrix[i].length;j++) {
-			if(matrix[i][j] == 1) {
-				if(numOfIsland ==  0) {
-					numOfIsland++;
-				}else if(isZeroAround(matrix,i,j)){
-					numOfIsland++;
-					
-				}
+	for(int i=0;i<visited.length;i++) {
+		for(int j=0;j<visited[i].length;j++) {
+			if(matrix[i][j] == 1 && !visited[i][j]) {
+				numOfIsland++;
+				visited[i][j]=true;
+				dfs(matrix,visited, i,j);
 			}
 		}
 	}
-	
 	return numOfIsland;
 }
 
-boolean isSafe(int[][] matrix, int i, int j) {
+void dfs(int[][] matrix, boolean[][] visited, int i, int j){
+	//right
+		if(isSafe(matrix, visited, i, j+1)){
+			if(matrix[i][j+1] == 1) {
+				visited[i][j+1]=true;
+				dfs(matrix, visited, i, j+1);
+			}
+		}
+		//bottom
+		if(isSafe(matrix,visited, i+1, j)){
+			if(matrix[i+1][j] == 1) {
+				visited[i+1][j]=true;
+				dfs(matrix, visited, i+1, j);
+			}
+		}
+		//top
+		if(isSafe(matrix, visited, i-1, j)){
+			if(matrix[i-1][j] == 1) {
+				visited[i-1][j]=true;
+				dfs(matrix, visited, i-1, j);
+			}
+		}
+		//left
+		if(isSafe(matrix, visited, i, j-1)){
+			if(matrix[i][j-1] == 1) {
+				visited[i][j-1]=true;
+				dfs(matrix, visited, i, j-1);
+			}
+		}
+}
+
+boolean isSafe(int[][] matrix, boolean[][] visited, int i, int j) {
 	boolean isSafe = true;
 	if(i<0 || i>matrix.length-1 || j<0 || j>matrix[0].length-1) {
 		isSafe=false;
-	}	
+	}else if(visited[i][j]) {
+		isSafe=false;
+	}
 	return isSafe;
 }
 
-boolean isZeroAround(int[][] matrix, int i, int j) {
-	//right
-	if(isSafe(matrix, i, j+1)){
-		if(matrix[i][j+1] == 1) {
-			return false;
-		}
-	}
-	//bottom
-	if(isSafe(matrix,i+1, j)){
-		if(matrix[i+1][j] == 1) {
-			return false;
-		}
-	}
-	//top
-	if(isSafe(matrix, i-1, j)){
-		if(matrix[i-1][j] == 1) {
-			return false;
-		}
-	}
-	//left
-	if(isSafe(matrix, i, j-1)){
-		if(matrix[i][j-1] == 1) {
-			return false;
-		}
-	}
-	return true;
-}
 
 }
