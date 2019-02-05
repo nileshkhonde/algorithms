@@ -33,4 +33,13 @@ public class Stack {
 			return false;
 		}
 	}
+	
+	public int peek() {
+		if(topOfStack >=0) {
+			return a[topOfStack];
+		}else {
+			System.err.println("Stack is empty!");
+			return -1;
+		}
+	}
 }
