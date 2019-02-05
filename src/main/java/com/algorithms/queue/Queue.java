@@ -33,7 +33,16 @@ public class Queue {
 		}
 	}
 	
-	public boolean isEmpty() {
+	public int peek() {
+		if(numOfElements ==0) {
+			System.err.println("Queue is empty!");
+			return -1;
+		}else {
+			return a[head];
+		}
+	}
+	
+	 boolean isEmpty() {
 		if(numOfElements == 0) {
 			 return true;
 		}else {
