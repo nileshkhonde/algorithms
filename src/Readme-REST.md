@@ -3,7 +3,7 @@ REST api has all nouns and no verb. Verbs are represented by http method.
 URIs are in two forms – singular resource or collection.
 collection can be primary or secondary.
 Keep version of the api in the path so upgrade won't break older apis
-
+ 
 Data format:
 JSON or XML. Mostly preferred JSON.
 
