@@ -9,7 +9,9 @@ JSON or XML. Mostly preferred JSON.
 
 API:
 /employees  --browse all/primary collection
+
 /employees?from=0&to=100  --browse all/primary collection with filter
+
 /employees/{empid}  -- singular resource
 /depts
 /depts/{deptid}/employees  -- browse all but secondary collection employees within given dept.
