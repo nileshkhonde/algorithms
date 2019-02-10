@@ -1,19 +1,16 @@
-REST API principles:
-REST api has all nouns and no verb. Verbs are represented by http method.
-URIs are in two forms – singular resource or collection.
-collection can be primary or secondary.
-Keep version of the api in the path so upgrade won't break older apis
+##REST API principles:
+- REST api has all nouns and no verb. Verbs are represented by http method.
+- URIs are in two forms – singular resource or collection. collection can be primary or secondary.
+- Keep version of the api in the path so upgrade won't break older apis
  
-Data format:
-JSON or XML. Mostly preferred JSON.
+##Data format:
+- JSON or XML. Mostly preferred JSON.
 
-API:
-/employees  --browse all/primary collection
-
-/employees?from=0&to=100  --browse all/primary collection with filter
-
-/employees/{empid}  -- singular resource
-/depts
+##API:
+- /employees  --browse all/primary collection
+- /employees?from=0&to=100  --browse all/primary collection with filter
+- /employees/{empid}  -- singular resource
+- /depts
 /depts/{deptid}/employees  -- browse all but secondary collection employees within given dept.
 
 Http Methods - verbs - tells action:
