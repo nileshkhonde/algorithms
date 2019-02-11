@@ -36,8 +36,9 @@ Load balancer between user and web server, web server and app server and app and
 
 ##### Replication - Syncing the information to redundant servers.
 
-## SQL/NoSQL - SQL are structure, good for OLTP, Oracle, MYSql. NoSQL is key value store like Redis, 
-or Document database like MongoDB, Columnar databases like Cassandra 
+## SQL/NoSQL 
+- SQL are structure, good for OLTP, Oracle, MYSql. 
+- NoSQL is key value store like Redis, or Document database like MongoDB, Columnar databases like Cassandra 
 - SQL Schema is fixed, NoSQL it is dynamic. SQL querying is fast than NOSQL
 - SQL databases are vertically scalable, NOSQL are horizontally scalable
 - SQL databases follows ACID properties, NoSQL databases sacrifise some of the ACID properties.
