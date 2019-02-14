@@ -20,8 +20,10 @@ Caching, Partitioning/Sharding, Design of various popular website e.g. Twitter.
 
 7. JSON(Stringify, parse, gson) REST API, Spring Boot, Spring MVC, MyBatis
 
-8. Languages - Python, Apache Spark, Scala
+8. Languages - Java, Javascript, SQL, Python, Apache Spark, Scala
 
 9. NoSQL - MongoDB, Cassandra
 
 10. Caching solutions Ehcache, Redis
+
+11. RDBMS - Oracle
