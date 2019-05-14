@@ -10,20 +10,22 @@
 	- https://www.geeksforgeeks.org/
 
 3. System Design - Scalability, Reliability, Availability, Load Balancer, Manageability, 
-Caching, Partitioning/Sharding, Design of various popular website e.g. Twitter.
-	
-4. Javascripts - NodeJS, ReactJS, Redux, ExpressJS, Middleware, Nginx
+   Caching, Partitioning/Sharding, Design of various popular website e.g. Twitter.
 
-5. Cloud - AWS 
+4. REST API, Spring Boot, Spring MVC, MyBatis, JSON(Stringify, parse, gson) 
 
-6. Containerization - Docker 
+5. Languages - Java, Javascript, SQL, Scala
 
-7. JSON(Stringify, parse, gson) REST API, Spring Boot, Spring MVC, MyBatis
+6. Caching solutions Ehcache, Redis
 
-8. Languages - Java, Javascript, SQL, Python, Apache Spark, Scala
+7. RDBMS - Oracle
+
+8. Apache Spark, Kafka
 
 9. NoSQL - MongoDB, Cassandra
 
-10. Caching solutions Ehcache, Redis
+10. Javascripts - NodeJS, ReactJS, Redux, ExpressJS, Middleware, Nginx
 
-11. RDBMS - Oracle
+11. Cloud - AWS 
+
+12. Containerization - Docker 
