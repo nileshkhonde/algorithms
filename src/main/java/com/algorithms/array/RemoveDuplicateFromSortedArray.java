@@ -17,4 +17,20 @@ public class RemoveDuplicateFromSortedArray {
 	     }
 	     return i+1;
 	}
+	public int removeDuplicates(int[] nums) {
+        if(nums != null && nums.length > 1){
+            int i=0;
+            for(int j=1;j<nums.length;j++){
+                if(nums[i] != nums[j]){
+                    i++;
+                    nums[i]=nums[j];
+                }
+            }
+            return i+1;
+        }else if(nums != null && nums.length == 1){
+            return 1;
+        }else{
+            return 0;
+        }
+    }
 }
