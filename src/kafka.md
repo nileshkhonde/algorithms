@@ -12,8 +12,8 @@
 - Once data is written to Kafka then it can not be changed. Its immutable append only log.
 
 ## Kafka Cluster - Composed of multiple brokers
-- Broker ### Is the server with an identifier. 
-         ### Broker has some Topic Partitions. 
-         ### Topic Partitions are distrubuted among different brokers.
-         ### When we connect to one broker we can connect to entire cluster.
+- Broker ###### Is the server with an identifier. 
+         ###### Broker has some Topic Partitions. 
+         ##### Topic Partitions are distrubuted among different brokers.
+         ###### When we connect to one broker we can connect to entire cluster.
       
