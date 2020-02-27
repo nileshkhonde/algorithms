@@ -17,5 +17,10 @@
 ###### Topic Partitions are distrubuted among different brokers.
 ###### When we connect to one broker we can connect to entire cluster.
 ###### Replication factor - 3 is standard, Broker data is replicated to other broker for backup
+At given moment only one broker will be leader for given partition with multiple in sync replica.(ISR)
+Leader and ISR are determined by zookeeper.
+Producer - writes data to Partition of a Topic. Producer will load balance and send data to different partitions.
+Producer Ack - acks=0 - Producer wont wait for ack(possible data loss)
+Producer Ack - acks=1 - Producer wait for Leader broker (partial loss possible) (most common)
+Producer Ack - acks=all - Producer wait for Leader as well as all partitions  (partial loss possible) (most common)
 
-      
