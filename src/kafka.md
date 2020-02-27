@@ -16,4 +16,6 @@
 ###### Broker has some Topic Partitions. 
 ###### Topic Partitions are distrubuted among different brokers.
 ###### When we connect to one broker we can connect to entire cluster.
+###### Replication factor - 3 is standard, Broker data is replicated to other broker for backup
+
       
