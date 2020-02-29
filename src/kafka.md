@@ -24,3 +24,8 @@
 ###### Producer Ack - acks=1 - Producer wait for Leader broker (partial loss possible) (most common)
 ###### Producer Ack - acks=all - Producer wait for Leader as well as all partitions  (partial loss possible) (most common)
 
+
+install Kafka locally using docker.
+1. Install docker - https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+
+
