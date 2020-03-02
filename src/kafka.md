@@ -27,5 +27,6 @@
 
 install Kafka locally using docker.
 1. Install docker - https://hub.docker.com/editions/community/docker-ce-desktop-mac/
+./kafka-topics.sh --zookeeper 127.0.0.1:2181 --topic mytopic --create --partitions 3 --replication-factor 1
 
 
