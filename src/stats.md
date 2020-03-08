@@ -6,3 +6,18 @@
 
 - Associated or Dependent Variables - if one variable value is depend on another then its called associted or dependent.
 - Positive association where variables are directly proportional and in negative association they are inversely proportional.
+
+- Mean (Average) - add all sample data and divide by number of elements. x (bar on top) = x1+x2+....xn/n 
+- Median - Middle value, order the data set elements and find the middle value, if it is even data set then average the middle two elements 
+- Mode - The value that occures most in the data set.
+
+- Variance & Standard deviation 
+  - Mean represents center of the data set, while Standard deviation is how far is the data spread from the center.
+  - Deviation - Distance from the mean is called deviation.
+  - variance = sq(x1-x) + sq(x2-x).....+sq(xn-x)/n-1 where x is mean.
+  - Standard deviation = sqrt(variance)
+  
+Representation - 
+Scattered dots - shows relationship between two variables.
+Histogram - shows data density as bin/bar are higher when data density is more. Shows mode with highest height
+
