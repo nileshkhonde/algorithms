@@ -38,13 +38,15 @@ P(1,2,3,4,5,6) = 1/6 +1/6 +1/6+1/6+1/6+1/6 =6/6=1=100%
 - Non Disjoint event - Card in a suit which is dimond or face card. here Dimond face cards satisfies both criteria.
 - P(dimond)+P(face) - P(dimond and face). We have to subtract the probability of dimond and face cards as it will be calculated in both probalities thus subtract it one time.
 
+###### Conditional Probablity 
+- Probability of A event to occur given event B occurred. P(A|B) = P(A and B)/P(B)
+- Bayers theorm - P(A|B) = P(A and B)/P(B) = P(A) * P(B|A)/P(B)
+                - P(A|B) = P(A) * P(B|A)/P(B)
 
 
 
-
-
-
-
+###### Distributions 
+- Normal Distribution - 
 
 
 
