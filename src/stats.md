@@ -41,7 +41,7 @@ P(1,2,3,4,5,6) = 1/6 +1/6 +1/6+1/6+1/6+1/6 =6/6=1=100%
 ###### Conditional Probablity 
 - Probability of A event to occur given event B occurred. P(A|B) = P(A and B)/P(B)
 - Bayers theorm - P(A|B) = P(A and B)/P(B) = P(A) * P(B|A)/P(B)
-                - P(A|B) = P(A) * P(B|A)/P(B)
+- P(A|B) = P(A) * P(B|A)/P(B)
 
 
 
