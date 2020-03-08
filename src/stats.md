@@ -10,7 +10,7 @@
 - Mean (Average) - add all sample data and divide by number of elements. x (bar on top) = x1+x2+....xn/n 
 - Median - Middle value, order the data set elements and find the middle value, if it is even data set then average the middle two elements 
 - Mode - The value that occures most in the data set.
-
+- Interqurtile Range - is the range of data that is 25% percentile to 75% of the data set. Also called IQR
 - Variance & Standard deviation 
   - Mean represents center of the data set, while Standard deviation is how far is the data spread from the center.
   - Deviation - Distance from the mean is called deviation.
@@ -20,4 +20,8 @@
 Representation - 
 Scattered dots - shows relationship between two variables.
 Histogram - shows data density as bin/bar are higher when data density is more. Shows mode with highest height
+            If data is too skewed we use transformations so that it fits in the graph. e.g. log to base 10.
+Intensity map - darker colors used to show higher number vs lighter color.
+Stacked Barplot - within bar it shows different colors to represent different data.
+
 
