@@ -19,6 +19,38 @@ Capillary effect - glass attracts water drops more than water attracts itself so
 
 Surface tension - the bond between molecules forms some kind of film which acts like surface tension.
 
+Specific heat - is amount of heat needed to increase temperature of 1 gram substance by 1 degree c
+Specific heat of water is called calories in food.
+
+Organic molecule are molecule involving carbon.
+
+H4C is methane - Organic molecule - hydrocarbon
+Octane h18c8
+
+Isomers - The number of molecules are same but the bondage are different are called Isomers.
+
+Glucose/Dextrose - C6H12O6
+Starch = Glucose
+cellulose - paper, cotton, wood
+
+Hydrolysis - Hyrdo-water, lysis-breaking. Breaking down into water. Starch can be broken into water and glucose by Hydrolysis.
+Fructose - also has same molecules are Glocose. C6H12O6. Fructose are sweetest glucose. it is Isomer of Glucose.
+
+Sucrose - Table Sugar
+
+
+Triglycerides - Fat- Oil - Glycerine reacts with fatty acid - make Triglycerides
+
+Saturated Fat - More dense, more Hydrogens - solid form - bad Fat
+Unsaturated Fat - Less Dense, less Hydrogens - double bonds. - Liguid form - 
+Tran fat - bad fat - 
+
+Lipid - Molecules not so soluble in water. Wax - 
+Steroid + Alchohol = Sterol. one of the type is called Cholestral - 
+
+DNA - Deoxyribo Neucleic Acid - 
+
+
 
 Cell
 DNA
