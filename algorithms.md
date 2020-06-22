@@ -24,4 +24,6 @@
  8. Are the two string Anagram. Number of chars shoud match.
   - Solution 1 - create map of char to count without white space(space, tab, new line) and these maps should match.
   - Solution 2 - Sort the string and start comparating char by char if no difference then Anagram
- 9. 
+ 9. Capitalize first letter of each word in a sentence.
+  - Solution 1 - Spit sentence by space Stringtokenizer then upper each first letter. 
+  - Solution 2 - Loop through each char, check if on left there is space if yes capitalize it, else copy same letter
