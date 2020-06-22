@@ -16,4 +16,11 @@
 5. Fizzbuzz write fizz for divisible by 3 and buzz for divisible by 5 and fizzbuzz for divisible by 3 and 5
   - if n%5==0 && n%3==0 then fizzbuzz elseif n%3==0 print fizz elseif n%5==0 print buzz else print n
 6. Array Chunking - [1,2,3,4] chunk into 2x2 arrays [[1,2],[3,4]]
-  - 
+  - For length of array run a loop and if current index + chunk < length then run inner loop to chunk it
+  - When  current index + chunk is greater than lenght break the loop and check if there are any elements left 
+  - if yes make last chunk which will be smaller than chunk.
+ 7. Can these random text pattern would form a Palindrom. 
+  - create a map of char and count. check if each char is exactly twice. zero or one char could be once.
+ 8. Are the two string Anagram. Number of chars shoud match.
+  - create map of char to count without white space(space, tab, new line) and these maps should match.
+ 9. 
