@@ -27,3 +27,7 @@
  9. Capitalize first letter of each word in a sentence.
   - Solution 1 - Spit sentence by space Stringtokenizer then upper each first letter. 
   - Solution 2 - Loop through each char, check if on left there is space if yes capitalize it, else copy same letter
+ 10. Steps - input is integer, print those many # in output. for 2 show '# ' '##'. 
+  - two for loops outer for line number inner for each # check outer index and inner index and prince # or space.
+  - if i <= j prince # else pring space. create string and print
+ 11. 
