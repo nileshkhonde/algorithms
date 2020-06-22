@@ -30,4 +30,5 @@
  10. Steps - input is integer, print those many # in output. for 2 show '# ' '##'. 
   - two for loops outer for line number inner for each # check outer index and inner index and prince # or space.
   - if i <= j prince # else pring space. create string and print
+  - Solution 2 - using recursion. Pass two indices and print in each recursion the exit condition is outer index is complete.
  11. 
