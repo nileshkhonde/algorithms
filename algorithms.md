@@ -10,7 +10,7 @@
   - while (input > 0 )
   - output = output * 10 + input % 10
   - input = input/10
-  - Make it string and reverse the string
+  - Solution 2 - Make it string and reverse the string
 4. Find max char in a string
   - create a map of char to count and found the max (run time - 2n, Storage - 2n)
 5. Fizzbuzz write fizz for divisible by 3 and buzz for divisible by 5 and fizzbuzz for divisible by 3 and 5
@@ -22,5 +22,6 @@
  7. Can these random text pattern would form a Palindrom. 
   - create a map of char and count. check if each char is exactly twice. zero or one char could be once.
  8. Are the two string Anagram. Number of chars shoud match.
-  - create map of char to count without white space(space, tab, new line) and these maps should match.
+  - Solution 1 - create map of char to count without white space(space, tab, new line) and these maps should match.
+  - Solution 2 - Sort the string and start comparating char by char if no difference then Anagram
  9. 
