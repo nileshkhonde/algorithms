@@ -31,4 +31,5 @@
   - two for loops outer for line number inner for each # check outer index and inner index and prince # or space.
   - if i <= j prince # else pring space. create string and print
   - Solution 2 - using recursion. Pass two indices and print in each recursion the exit condition is outer index is complete.
- 11. 
+ 11. Print Pyramid shape - No of rows same as input. Center # is always there. Center-n and center+n should be # and rest is space.
+ 12. 
