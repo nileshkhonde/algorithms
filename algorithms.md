@@ -44,4 +44,11 @@
     - O(2n)     - exponential Time          = recursions
     
     
-15. 
+15. Stack - LIFO - Top of the queue point to last value. Push and pop operations to take out or put in the value.
+16. Queue - FIFI - Make Queue using stack - use two stacks to reach to bottom and return that value. Linear queue and circular queue. Front and rear of the queue. Add new value in rear and take out value from front
+17. Linked List - Node, data and reference. Singly and Doubly linkted list.
+ - Linked list has head, nodes, tail.
+18. Get first - Return head
+19. get Last  - runner with prev and curr and return prev and curr is null.
+20. Size - count till next is null.
+21.
