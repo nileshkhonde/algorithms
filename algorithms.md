@@ -33,3 +33,5 @@
   - Solution 2 - using recursion. Pass two indices and print in each recursion the exit condition is outer index is complete.
  11. Print Pyramid shape - No of rows same as input. Center # is always there. Center-n and center+n should be # and rest is space.
  12. Find a vowels in a string - check chars and find aeiou using char at
+ 13. Matrix nxn print numbers by spiral - Four loops each time one horizontal, then vertical then bottom horizontal then verticle line is printed.
+     4 indexes are maintained to find the boundaries. 
