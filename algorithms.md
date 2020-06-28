@@ -36,12 +36,12 @@
  13. Matrix nxn print numbers by spiral - Four loops each time one horizontal, then vertical then bottom horizontal then verticle line is printed.
      4 indexes are maintained to find the boundaries. 
 14. Run time complexity - Big O notation. Most common are 1, log(n), n, n.log(n), n2 , 2n. 
-    1      - Constant time             = Hashmap, 
-    log(n) - logarithmic time          = binary search.
-    n      - Linear Time               = simple loop
-    nlog(n)-                           = Merge sort, quick sort
-    n2     - Quadratic Time            = Bubble sort, Insertion sort, two loops
-    2n     - exponential Time          = recursions
+    - 1      - Constant time             = Hashmap, 
+    - log(n) - logarithmic time          = binary search.
+    - n      - Linear Time               = simple loop
+    - nlog(n)-                           = Merge sort, quick sort
+    - n2     - Quadratic Time            = Bubble sort, Insertion sort, two loops
+    - 2n     - exponential Time          = recursions
     
     
 15. 
