@@ -49,6 +49,8 @@
 17. Linked List - Node, data and reference. Singly and Doubly linkted list.
  - Linked list has head, nodes, tail.
 18. Get first - Return head
-19. get Last  - runner with prev and curr and return prev and curr is null.
+19. get Last  - Curr pointer to head and run through list and check next is not null when null return curr as last node.
 20. Size - count till next is null.
-21.
+21. remove first node - head = head.next check null conditions
+22. Remove last node - runner with prev and curr and when curr.next is null then make prev.next as null 
+
