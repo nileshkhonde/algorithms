@@ -1,5 +1,5 @@
   
-package com.algorithms.stack;
+package src;
 
 public class StackTest {
 public static void main(String[] args) {
