@@ -23,27 +23,7 @@ public class Sorting {
 		printHorizonal(a);
 	}
 	
-	void insertionsort(int[] a) {
-		//two loops, outer loop gives a key it runs for n-1, inner loop runs for i to 0
-		//checks if elements on left are greater than key
-		//if element is greater then swap till element found is same or lesser.
-		//inner loop breaks when first smaller element is found because element on further left are already sorted.
-		//time: worst case O(n^2) Best case O(n) if almost sorted array, space: O(1) one swap temp variable
-		printHorizonal(a);
-		for(int i=1;i<a.length;i++) {
-			int key = a[i];
-			for(int j=i;j>0;j--) {
-				if(a[j-1]>key) {
-					int temp = a[j];
-					a[j]=a[j-1];
-					a[j-1]=temp;
-				}else {
-					break;
-				}
-			}
-		}
-		printHorizonal(a);
-	}
+	
 	
 	void selectionsort(int[] a) {
 		//two loops, outer loop select each element calls it a min, inner loop compares every element 
@@ -66,6 +46,28 @@ public class Sorting {
 		}
 		printHorizonal(a);
 
+	}
+	
+	void insertionsort(int[] a) {
+		//two loops, outer loop gives a key it runs for n-1, inner loop runs for i to 0
+		//checks if elements on left are greater than key
+		//if element is greater then swap till element found is same or lesser.
+		//inner loop breaks when first smaller element is found because element on further left are already sorted.
+		//time: worst case O(n^2) Best case O(n) if almost sorted array, space: O(1) one swap temp variable
+		printHorizonal(a);
+		for(int i=1;i<a.length;i++) {
+			int key = a[i];
+			for(int j=i;j>0;j--) {
+				if(a[j-1]>key) {
+					int temp = a[j];
+					a[j]=a[j-1];
+					a[j-1]=temp;
+				}else {
+					break;
+				}
+			}
+		}
+		printHorizonal(a);
 	}
 	
 	void quicksort(int[] a, int lo, int hi) {
