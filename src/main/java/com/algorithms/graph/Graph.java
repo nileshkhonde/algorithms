@@ -29,13 +29,8 @@ public class Graph {
 		s.getAdjascents().add(d);
 	}
 	
-	public void DFSUtil(int start) {
-		Set<Integer> visited = new HashSet<Integer>();
-		Vertex s = getVertex(start);
-		//DFSRecur(s, visited);
-		DFS(s, visited);
-	}
 	
+	/////////////////////////////////////////////////
 	public void DFSRecur(Vertex v, Set<Integer> visited) {
 		if(v != null) {
 			System.out.println(v.getId());
@@ -47,6 +42,14 @@ public class Graph {
 				}
 			}
 		}
+	}
+	
+	/////////////////////////////////////////////////
+	public void DFSIterative(int start) {
+		Set<Integer> visited = new HashSet<Integer>();
+		Vertex s = getVertex(start);
+		//DFSRecur(s, visited);
+		DFS(s, visited);
 	}
 	
 	public void DFS(Vertex v, Set<Integer> visited) {
@@ -68,15 +71,32 @@ public class Graph {
 		}
 	}
 	
-	
+	/////////////////////////////////////////////////
 	public void BFSUtil(int start) {
 		Set<Integer> visited = new HashSet<Integer>();
 		Vertex s = getVertex(start);
 		BFS(s, visited);
 		
 	}
-	
-	public void BFSUtilRecur(int start) {
+	public void BFS(Vertex v, Set<Integer> visited) {
+		Queue<Vertex> queue = new LinkedList<Vertex>();
+		queue.offer(v);
+		visited.add(v.getId());
+		while(!queue.isEmpty()) {
+			Vertex vertex = queue.poll();
+			System.out.println(vertex.getId());
+			
+			for(Vertex child: vertex.getAdjascents()) {
+				if(child != null && (!visited.contains(child.getId()))) {
+					queue.offer(child);
+					visited.add(child.getId());
+				}
+			}
+		}
+		
+	}
+	/////////////////////////////////////////////////
+	public void BFSRecurUtil(int start) {
 		Set<Integer> visited = new HashSet<Integer>();
 		Vertex s = getVertex(start);
 		Queue<Vertex> q = new LinkedList<Vertex>();
@@ -102,23 +122,7 @@ public class Graph {
 		BFSRecur(q, visited);
 	}
 	
-	public void BFS(Vertex v, Set<Integer> visited) {
-		Queue<Vertex> queue = new LinkedList<Vertex>();
-		queue.offer(v);
-		visited.add(v.getId());
-		while(!queue.isEmpty()) {
-			Vertex vertex = queue.poll();
-			System.out.println(vertex.getId());
-			
-			for(Vertex child: vertex.getAdjascents()) {
-				if(child != null && (!visited.contains(child.getId()))) {
-					queue.offer(child);
-					visited.add(child.getId());
-				}
-			}
-		}
-		
-	}
+	
 	
 	
 	public static void main(String[] args) {
@@ -162,7 +166,7 @@ public class Graph {
 		
 		//g.DFSUtil(1);
 		//g.BFSUtil(1);
-		g.BFSUtilRecur(1);
+		g.BFSRecurUtil(1);
 }
 	
 }
