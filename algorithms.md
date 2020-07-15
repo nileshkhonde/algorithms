@@ -53,4 +53,7 @@
 20. Size - count till next is null.
 21. remove first node - head = head.next check null conditions
 22. Remove last node - runner with prev and curr and when curr.next is null then make prev.next as null 
+23. Design LRU cache - Least Recently Used. - get(Key), Put(key, value) constructor with Capacity. - Keep Hashmap and Linked list. When capacity is reached remove
+head element and always add new element at the end which acts like added lasted.
+24. 
 
