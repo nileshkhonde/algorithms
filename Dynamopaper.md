@@ -17,6 +17,6 @@
     It would also create virtual node for even distribution with different hash so each node gets even load.
 17. replication - replicate data to n nodes in clockwise direction so if this node fails following nodes will have the data.
 18. versioning - versioning is used to reconsile the object states. if some node has old state still the new state is stored
-19. membership - 
+19. membership - they key space is registered using hash functions
 20. failure handling - when node fails the Markle tree of hashing is used to find which data is not copied and only that will be copied
-21. scaling - 
+21. scaling - any node can by dynamically added where in it steals the keyset from other nodes and replicate data
