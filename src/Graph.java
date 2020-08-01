@@ -29,7 +29,14 @@ public class Graph {
 		s.getAdjascents().add(d);
 	}
 	
-	
+	/////////////////////////////////////////////////
+	//caller method which creates a visited set and calls the actual DFS method
+	public void DFSUtil(int start) {
+		Set<Integer> visited = new HashSet<Integer>();
+		Vertex s = getVertex(start);
+		//DFSRecur(s, visited);
+		DFSIterative(s, visited);
+	}
 	/////////////////////////////////////////////////
 	public void DFSRecur(Vertex v, Set<Integer> visited) {
 		if(v != null) {
@@ -43,17 +50,8 @@ public class Graph {
 			}
 		}
 	}
-	
 	/////////////////////////////////////////////////
-	public void DFSIterative(int start) {
-		Set<Integer> visited = new HashSet<Integer>();
-		Vertex s = getVertex(start);
-		//DFSRecur(s, visited);
-		DFS(s, visited);
-	}
-	
-	public void DFS(Vertex v, Set<Integer> visited) {
-
+	public void DFSIterative(Vertex v, Set<Integer> visited) {
 		Stack<Vertex> s = new Stack<Vertex>();
 		s.push(v);
 		visited.add(v.getId());
@@ -70,15 +68,13 @@ public class Graph {
 			}
 		}
 	}
-	
 	/////////////////////////////////////////////////
 	public void BFSUtil(int start) {
 		Set<Integer> visited = new HashSet<Integer>();
 		Vertex s = getVertex(start);
-		BFS(s, visited);
-		
+		BFSIterative(s, visited);
 	}
-	public void BFS(Vertex v, Set<Integer> visited) {
+	public void BFSIterative(Vertex v, Set<Integer> visited) {
 		Queue<Vertex> queue = new LinkedList<Vertex>();
 		queue.offer(v);
 		visited.add(v.getId());
