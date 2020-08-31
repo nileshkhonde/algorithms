@@ -1,4 +1,4 @@
-######Arraylist
-- Sequence of similar elements
-- 
+###### Arraylist
+- Collection of similar elements
+- Array size is fixed
 
