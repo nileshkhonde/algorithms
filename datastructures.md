@@ -1,2 +1,4 @@
-###Arraylist
-######
+######Arraylist
+- Sequence of similar elements
+- 
+
