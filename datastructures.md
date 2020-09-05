@@ -12,6 +12,13 @@ Employee[] empArr = new Employee[] is array of employee class objects
 - Array insert/update is O(1), as it can be accessed by index directly.
 - Array search would be O(n) as we need to look each element unless we have index.
 - Array delete is O(1), but it creates hole in array unless we compact it.
+- Array of primitives will have their default values when initialized, int will be 0 boolean will be false etc.
+- Array of Objects will have all elements null by default.
+- for(int i=0;i<n;i++) index loop when we need index for calculations
+- for(int id: ids) when we want to loop and doesnt need index but just value.
+- If Array is accessed outside range then we get ArrayIndexOutofBound
+- Array.length would give total size of the Array. 
+- but if we want to know how many elements in array that we have to keep track 
 
 
 
