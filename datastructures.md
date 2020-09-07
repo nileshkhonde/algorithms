@@ -1,4 +1,4 @@
-###### Arraylist
+###### Array
 - Collection of items
 - Array size is fixed. If larger size is needed later then, we have to recontruct the array.
 e.g. 
@@ -19,6 +19,11 @@ Employee[] empArr = new Employee[] is array of employee class objects
 - If Array is accessed outside range then we get ArrayIndexOutofBound
 - Array.length would give total size of the Array. 
 - but if we want to know how many elements in array that we have to keep track 
+- Inserting new element at the start of array would need to move all elements on right. 
+- Inserting new element at the next available slot is simple and O(1) operation
+- Inserting new element at the middle would need to shift the elements on right
+- inserting new element when array size is reached would need to copy array into new with twice size and save.
+
 
 
 
