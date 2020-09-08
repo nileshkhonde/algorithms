@@ -23,7 +23,12 @@ Employee[] empArr = new Employee[] is array of employee class objects
 - Inserting new element at the next available slot is simple and O(1) operation
 - Inserting new element at the middle would need to shift the elements on right
 - inserting new element when array size is reached would need to copy array into new with twice size and save.
-
-
+- Deleting last element of an Array is easy and just reduce the current index
+- Deleting first element is difficult as it would need shifting of all elements the left.
+- Search in array, if index is known then its constant time of O(1)
+- Search in array, if index is not known then it is linear search of O(n)
+- Search in array, if index is unknown, but array is sorted then we can use Binary search which gives O(log n) performance.
+- If we need to search only once then linear search is fine, if we need repeated searched then we should do binary search.
+- 
 
 
