@@ -27,4 +27,13 @@
 ###### Avoid duplicates - Create primary key (this internally creates index). Add unique constraint. Create unique index.
 ###### Unique index can be created with where clause if we know its unique only in certain cases. This will create partial index.
 ###### Primary key, unique constraint and unique index all internally creates index.
+###### pg_dump to export the data and psql COPY to import it back. pgloader
+###### 
 ######
+######
+######
+######
+######
+######
+######
+
