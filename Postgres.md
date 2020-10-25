@@ -37,12 +37,12 @@
 ###### ON CONFLICT DO ..
 ###### for roles that doesnt need login, create them with NOLOGIN clause.
 ###### removing user without dropping their data - disconnect login of old user ALTER USER a NOLOGIN then REASSIGN OWNED BY a to b
+###### --single-transaction directive makes it begin and commit
+###### pg_shadow
+###### VACUUM - removing dead rows. VACUUME ANALYSE tablename
+###### n_dead_tup and n_live_tup to find dead rows pg_stat_user_tables
+###### \gset can be used to assign value of query to variable.
 ###### 
-######
-######
-######
-######
-######
 ######
 ######
 ######
