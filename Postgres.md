@@ -28,7 +28,23 @@
 ###### Unique index can be created with where clause if we know its unique only in certain cases. This will create partial index.
 ###### Primary key, unique constraint and unique index all internally creates index.
 ###### pg_dump to export the data and psql COPY to import it back. pgloader
+###### Alter user uname superuser or nosuperuser to make any user superuser. this should be avoided. the common superuser is postgres
+###### CREATEDB and CREATEUSER roles are also reserved for superuser.
+###### \dp table will give us which roles are granted access to table
+###### \du user will give all roles for user
+###### create views to mask data, show consistent interface when underline table can change.
+###### USING clause can be applied to rows
+###### ON CONFLICT DO ..
+###### for roles that doesnt need login, create them with NOLOGIN clause.
+###### removing user without dropping their data - disconnect login of old user ALTER USER a NOLOGIN then REASSIGN OWNED BY a to b
 ###### 
+######
+######
+######
+######
+######
+######
+######
 ######
 ######
 ######
