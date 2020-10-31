@@ -1,11 +1,12 @@
 
 ## Scalability - Systems ability to grow
-###### Horizontal Scaling - Adding more nodes/machines in 
-###### Vertical Scaling - Adding more hardware like Memory(RAM), Better CPU etc.
+- Horizontal Scaling - Adding more nodes/machines in 
+- Vertical Scaling - Adding more hardware like Memory(RAM), Better CPU etc.
 	
-## Reliability - The system should be reliable and wont have single point failure.
-thus we would need replications of user data so that if the server fails, another server can
-take over.
+## Reliability - System could degrade but should be reliable without single point failure
+- The system should be reliable and wont have single point failure.
+- We can achieve this by redundancy of servers and data stores. 
+- Replicating user data will ensure if one server fails other will take over.
 
 ## Availability - System if available to perform operation.
 
@@ -14,27 +15,27 @@ take over.
 ## Manageability - System can be fixed in case of failure, can be enhanced.
 
 ## Load Balancer - Distribute the load, detect errors and stop sending request to that server
-Load balancer between user and web server, web server and app server and app and database.
+- Load balancer between user and web server, web server and app server and app and database.
 
 ## Caching - Loads data into memory and never read again.
-###### Write-Through Cache - write data in cache as well as source of truth, database.
-###### Write-Around cache - data written in database but not in cache, the force cache miss and reread
-###### Write-Back Cache - data is written only to cache, and control returns to caller, then data is written to db.
-###### Cache eviction can be - LRU - Least Recently Used MRU -Most Recently Used LFU - Least Frequently Used
-###### How much to cache - 20% ?
-###### CDN - Content Distribution Network - caches data locally and accesses it from the server.
+- Write-Through Cache - write data in cache as well as source of truth, database.
+- Write-Around cache - data written in database but not in cache, the force cache miss and reread
+- Write-Back Cache - data is written only to cache, and control returns to caller, then data is written to db.
+- Cache eviction can be - LRU - Least Recently Used MRU -Most Recently Used LFU - Least Frequently Used
+- How much to cache - 20% ?
+- CDN - Content Distribution Network - caches data locally and accesses it from the server.
 
 ## Performance:
-##### Data partitioning/Sharding - Data is divided into chunks for better management and performance.
-###### Range Partitioning
-###### List Partitioning
-###### Vertical partitioning - data of different entities kept in different servers.
-###### Issues with joins, issues with accessing data beyond partition.
+- Data partitioning/Sharding - Data is divided into chunks for better management and performance.
+- Range Partitioning
+- List Partitioning
+- Vertical partitioning - data of different entities kept in different servers.
+- Issues with joins, issues with accessing data beyond partition.
 
-##### Indexes
-##### Redundancy - Duplication of critical system so if one goes down other is present for backup.
+## Indexes
+- Redundancy - Duplication of critical system so if one goes down other is present for backup.
 
-##### Replication - Syncing the information to redundant servers.
+## Replication - Syncing the information to redundant servers.
 
 ## SQL/NoSQL 
 - SQL are structure, good for OLTP, Oracle, MYSql. 
