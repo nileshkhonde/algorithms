@@ -1,9 +1,9 @@
 
-## Scalability - Systems ability to grow
+### Scalability - Systems ability to grow
 - Horizontal Scaling - Adding more nodes/machines in 
 - Vertical Scaling - Adding more hardware like Memory(RAM), Better CPU etc.
 	
-## Reliability - System could degrade but should be reliable without single point failure
+### Reliability - System could degrade but should be reliable without single point failure
 - The system should be reliable and wont have single point failure.
 - We can achieve this by redundancy of servers and data stores. 
 - Replicating user data will ensure if one server fails other will take over.
