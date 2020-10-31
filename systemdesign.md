@@ -1,7 +1,7 @@
 
 ## Scalability - Systems ability to grow
-	##### Horizontal Scaling - Adding more nodes/machines in 
-	##### Vertical Scaling - Adding more hardware like Memory(RAM), Better CPU etc.
+###### Horizontal Scaling - Adding more nodes/machines in 
+###### Vertical Scaling - Adding more hardware like Memory(RAM), Better CPU etc.
 	
 ## Reliability - The system should be reliable and wont have single point failure.
 thus we would need replications of user data so that if the server fails, another server can
@@ -17,19 +17,19 @@ take over.
 Load balancer between user and web server, web server and app server and app and database.
 
 ## Caching - Loads data into memory and never read again.
-- Write-Through Cache - write data in cache as well as source of truth, database.
-- Write-Around cache - data written in database but not in cache, the force cache miss and reread
-- Write-Back Cache - data is written only to cache, and control returns to caller, then data is written to db.
-- Cache eviction can be - LRU - Least Recently Used MRU -Most Recently Used LFU - Least Frequently Used
-- How much to cache - 20% ?
-##### CDN - Content Distribution Network - caches data locally and accesses it from the server.
+###### Write-Through Cache - write data in cache as well as source of truth, database.
+###### Write-Around cache - data written in database but not in cache, the force cache miss and reread
+###### Write-Back Cache - data is written only to cache, and control returns to caller, then data is written to db.
+###### Cache eviction can be - LRU - Least Recently Used MRU -Most Recently Used LFU - Least Frequently Used
+###### How much to cache - 20% ?
+###### CDN - Content Distribution Network - caches data locally and accesses it from the server.
 
 ## Performance:
 ##### Data partitioning/Sharding - Data is divided into chunks for better management and performance.
-- Range Partitioning
-- List Partitioning
-- Vertical partitioning - data of different entities kept in different servers.
-- Issues with joins, issues with accessing data beyond partition.
+###### Range Partitioning
+###### List Partitioning
+###### Vertical partitioning - data of different entities kept in different servers.
+###### Issues with joins, issues with accessing data beyond partition.
 
 ##### Indexes
 ##### Redundancy - Duplication of critical system so if one goes down other is present for backup.
