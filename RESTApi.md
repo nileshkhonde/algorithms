@@ -34,3 +34,4 @@
 - Versioning - Versioning of api by putting version number as part of url. 
 - Locking - optimetisic locking can be achived with concurrency counter number which can be sent back and forth while each update.
 
+
