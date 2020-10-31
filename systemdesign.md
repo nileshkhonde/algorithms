@@ -14,7 +14,7 @@
 
 ### Manageability - System can be fixed in case of failure, can be enhanced.
 
-## Load Balancer - Distribute the load, detect errors and stop sending request to that server
+### Load Balancer - Distribute the load, detect errors and stop sending request to that server
 - Load balancer between user and web server, web server and app server and app and database.
 
 ### Caching - Loads data into memory and never read again.
