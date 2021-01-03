@@ -17,7 +17,11 @@
 ###### Sliding Window 
 - longest common prefix in words - hold currmax and max and keep comparing the chars
 - haystack and needle - file needle string in haystack, two loop sliding window
+- maxarry with max sum - initialize currsum and maxsum to first element, then get max of currsum or currsum+i th, and get max of currsum and maxsum
+- Kadanes Algorithm - ?
 
 ###### Stack
 - Valid parentheses - push opening brankets into stack and on closing bracket pop the stack and match.
 
+###### Binary Search 
+- Search number in sorted array.
