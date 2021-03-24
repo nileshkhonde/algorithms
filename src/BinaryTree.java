@@ -145,3 +145,27 @@ public class BinaryTree {
 	
 	
 }
+
+
+//Top down
+private int answer; 
+private void max_depth(Node root, int depth) {
+    if (root == null) {
+        return;
+    }
+    if (root.left == null && root.right == null) {
+        answer = Math.max(answer, depth);
+    }
+    max_depth(root.left, depth + 1);
+    max_depth(root.right, depth + 1);
+}
+
+//bottom up
+public int max_depth(TreeNode root) {
+    if (root == null) {
+        return 0;                                   // return 0 for null node
+    }
+    int left_depth = max_depth(root.left);
+    int right_depth = max_depth(root.right);
+    return Math.max(left_depth, right_depth) + 1;   // return depth of the subtree rooted at root
+}
