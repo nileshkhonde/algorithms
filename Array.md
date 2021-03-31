@@ -1,5 +1,23 @@
+Array               - In progress
+Array and Strings   - 
+LinkedList          - 
+Stack               - Done
+Queue               - Done
+Binary Search       - 
+Binary Search Tree  - 
+Recursion 1         -
+Recursion 2         -
+Binary Tree         -
+n-ary Tree          -
+Trie                -
+Hash Table          -
+Decision Tree       -
+Machine Learning    -
+
+
+
 ###### Array
-- Collection of items
+- Ordered Collection of items
 - Array size is fixed. If larger size is needed later then, we have to recontruct the array.
 e.g. 
 String[] strArr = new String[] is array of strings.
