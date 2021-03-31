@@ -15,7 +15,6 @@
 ### Machine Learning    -
 
 
-
 ###### Array
 - Ordered Collection of items
 - Array size is fixed. If larger size is needed later then, we have to recontruct the array.
