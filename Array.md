@@ -1,18 +1,18 @@
-Array               - In progress
-Array and Strings   - 
-LinkedList          - 
-Stack               - Done
-Queue               - Done
-Binary Search       - 
-Binary Search Tree  - 
-Recursion 1         -
-Recursion 2         -
-Binary Tree         -
-n-ary Tree          -
-Trie                -
-Hash Table          -
-Decision Tree       -
-Machine Learning    -
+### Array               - In progress
+### Array and Strings   - 
+### LinkedList          - 
+### Stack               - Done
+### Queue               - Done
+### Binary Search       - 
+### Binary Search Tree  - 
+### Recursion 1         -
+### Recursion 2         -
+### Binary Tree         -
+### n-ary Tree          -
+### Trie                -
+### Hash Table          -
+### Decision Tree       -
+### Machine Learning    -
 
 
 
