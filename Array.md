@@ -1,4 +1,4 @@
-### Array               - completed
+### Array               - Done
 ### Array and Strings   - 
 ### LinkedList          - Done
 ### Stack               - Done
