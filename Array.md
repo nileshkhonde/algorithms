@@ -1,6 +1,6 @@
 ### Array               - completed
 ### Array and Strings   - 
-### LinkedList          - 
+### LinkedList          - Done
 ### Stack               - Done
 ### Queue               - Done
 ### Binary Search       - 
