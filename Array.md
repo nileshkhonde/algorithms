@@ -7,7 +7,7 @@
 ### Binary Search Tree  - 
 ### Recursion 1         -
 ### Recursion 2         -
-### Binary Tree         -
+### Binary Tree         - Done
 ### n-ary Tree          -
 ### Trie                -
 ### Hash Table          -
