@@ -9,3 +9,17 @@ The issue with this is values are getting repeated, when new value is added we h
 Star Schema
 
 Snowflake Schema
+
+Possible models in many to many
+Vehicle - properties is many to many.
+We can have vehicle(id, vin etc), vehicle_property(id, property_id, value), property(id, name). The value in vehicle_property is free form with no constraint or
+bounded list.
+
+We can have vehicle(id, vin etc), vehicle_property(id, property_id), property(id, name, value). The value is bounded list.  
+
+We can have kimbell dimention model - vehicle(id, vin, engine_id, body_id etc), engine(id, value), body(id, value). Dimension for each property. list of values is possible.
+
+
+
+
+
