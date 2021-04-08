@@ -5,7 +5,7 @@
 ### Queue               - Done
 ### Binary Search       - 
 ### Binary Search Tree  - 
-### Recursion 1         -
+### Recursion 1         - Done
 ### Recursion 2         -
 ### Binary Tree         - Done
 ### n-ary Tree          -
