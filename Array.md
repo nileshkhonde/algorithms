@@ -3,10 +3,10 @@
 ### LinkedList          - Done
 ### Stack               - Done
 ### Queue               - Done
-### Binary Search       - 
+### Binary Search       - Done
 ### Binary Search Tree  - 
 ### Recursion 1         - Done
-### Recursion 2         -
+### Recursion 2         - Done
 ### Binary Tree         - Done
 ### n-ary Tree          -
 ### Trie                -
