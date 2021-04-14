@@ -1,3 +1,19 @@
+###### ~~Array~~               - Done
+###### ~~Array and Strings~~   - Done
+###### ~~LinkedList~~          - Done
+###### ~~Stack~~               - Done
+###### ~~Queue~~               - Done
+###### ~~Binary Search~~       - Done
+###### ~~Binary Search Tree~~  - Done
+###### ~~Recursion 1~~         - Done
+###### ~~Recursion 2~~         - Done
+###### ~~Binary Tree~~         - Done
+###### n-ary Tree          -
+###### Trie                -
+###### ~~Hash Table~~          - Done
+###### Decision Tree       -
+###### Machine Learning    -
+
 1. Coding Bootcamp course as a starter.
 2. Algorithm - Prof Sedgewick
 3. Algorithm - Prof Cormen
