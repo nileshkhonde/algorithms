@@ -1,5 +1,5 @@
 ###### ~~Array~~               - Done
-###### Array and Strings   - 
+###### ~~Array and Strings~~   - Done
 ###### ~~LinkedList~~          - Done
 ###### ~~Stack~~               - Done
 ###### ~~Queue~~               - Done
