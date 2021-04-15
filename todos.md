@@ -8,11 +8,9 @@
 ###### ~~Recursion 1~~         - Done
 ###### ~~Recursion 2~~         - Done
 ###### ~~Binary Tree~~         - Done
-###### n-ary Tree          -
-###### Trie                -
+###### ~~n-ary Tree~~          - Done
+###### ~~Trie~~                - Done
 ###### ~~Hash Table~~          - Done
-###### Decision Tree       -
-###### Machine Learning    -
 
 1. Coding Bootcamp course as a starter.
 2. Algorithm - Prof Sedgewick
