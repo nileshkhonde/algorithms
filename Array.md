@@ -27,5 +27,8 @@
 ###### Array problem types:
 1. Remove Duplicates - i & j pointer - compare i & j if same increment j, when is not same as i then increment i and copy j to i
 2. Rotate Array - rotate array of n elements by k time. reverse entire array, then reverse first k elements then reverse k to n-1 elements.
+3. Has Duplicates - use set to keep the track
+4. Intersection of two arrays - build map with element and its count, iterate second array to find common elements
+5. 
 
 
