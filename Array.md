@@ -25,7 +25,7 @@
 ###### Search in array, if index is unknown, but array is sorted then we can use Binary search which gives O(log n) performance.
 ###### If we need to search only once then linear search is fine, if we need repeated searched then we should sort and do binary search.
 ###### Array problem types:
-- 1. asda
-- 2. wdfd
+1. asda
+2. wdfd
 
 
