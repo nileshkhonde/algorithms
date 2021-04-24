@@ -29,6 +29,11 @@
 2. Rotate Array - rotate array of n elements by k time. reverse entire array, then reverse first k elements then reverse k to n-1 elements.
 3. Has Duplicates - use set to keep the track
 4. Intersection of two arrays - build map with element and its count, iterate second array to find common elements
-5. 
+5. Plus one - add one to number represented by array of integer. user / to see if we have carry and use % to get remainder
+6. Move zero to right - two pointers one stops at zero and one as nonzero and then swap. both increments. if no swap increment nonzero.
+7. Two sum - find pairs of numbers where sum is given target. Use map to keep visited numbers and find if it matches with target-current.
+8. Three Sum - one loop put all values in map. then two loops to find 3 number combination.
+9. Validate sudoku - navigate two dimensional matrix define 9 verticle, 9 horizonal, 9 block Set. add numbers and check if duplicate. i*3/3+j/3
+10. 
 
 
