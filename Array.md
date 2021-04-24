@@ -26,6 +26,6 @@
 ###### If we need to search only once then linear search is fine, if we need repeated searched then we should sort and do binary search.
 ###### Array problem types:
 1. Remove Duplicates - i & j pointer - compare i & j if same increment j, when is not same as i then increment i and copy j to i
-2. wdfd
+2. Rotate Array - rotate array of n elements by k time. reverse entire array, then reverse first k elements then reverse k to n-1 elements.
 
 
