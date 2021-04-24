@@ -12,19 +12,20 @@
 ###### Array of Objects will have all elements null by default.
 ###### for(int i=0;i<n;i++) index loop when we need index for calculations
 ###### for(int id: ids) when we want to loop and doesnt need index but just value.
-- If Array is accessed outside range then we get ArrayIndexOutofBound
-- Array.length would give total size of the Array. 
-- but if we want to know how many elements in array that we have to keep track 
-- Inserting new element at the start of array would need to move all elements on right. 
-- Inserting new element at the next available slot is simple and O(1) operation
-- Inserting new element at the middle would need to shift the elements on right
-- inserting new element when array size is reached would need to copy array into new with twice size and save.
-- Deleting last element of an Array is easy and just reduce the current index
-- Deleting first element is difficult as it would need shifting of all elements the left.
-- Search in array, if index is known then its constant time of O(1)
-- Search in array, if index is not known then it is linear search of O(n)
-- Search in array, if index is unknown, but array is sorted then we can use Binary search which gives O(log n) performance.
-- If we need to search only once then linear search is fine, if we need repeated searched then we should do binary search.
-- 
+###### If Array is accessed outside range then we get ArrayIndexOutofBound
+###### Array.length would give total size of the Array but not how many elements in it, we need to keep track of count of elements.
+###### Inserting new element at the start of array would need to move all elements on right. 
+###### Inserting new element at the next available slot is simple and O(1) operation
+###### Inserting new element at the middle would need to shift the elements on right
+###### inserting new element when array size is reached would need to copy array into new with twice size and save.
+###### Deleting last element of an Array is easy and just reduce the current index
+###### Deleting first element is shifting of all elements the left.
+###### Search in array, if index is known then its constant time of O(1)
+###### Search in array, if index is not known then it is linear search of O(n)
+###### Search in array, if index is unknown, but array is sorted then we can use Binary search which gives O(log n) performance.
+###### If we need to search only once then linear search is fine, if we need repeated searched then we should sort and do binary search.
+###### Array problem types:
+###### 1. asda
+###### 2. wdfd
 
 
