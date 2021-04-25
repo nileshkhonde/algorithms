@@ -34,6 +34,6 @@
 7. Two sum - find pairs of numbers where sum is given target. Use map to keep visited numbers and find if it matches with target-current.
 8. Three Sum - one loop put all values in map. then two loops to find 3 number combination.
 9. Validate sudoku - navigate two dimensional matrix define 9 verticle, 9 horizonal, 9 block Set. add numbers and check if duplicate. i*3/3+j/3
-10. 
+10. Rotate Matrix - in place. two for loops, rotate 4 elements of matrix.
 
 
