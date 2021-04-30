@@ -8,7 +8,7 @@
 ###### BFS - Bread First Search - Nodes are visited level by level from top node. top node will be visited first and then level by level going to the bottom
 ###### DFS - Depth First Search - Depth is given a priority where in root is visited then we go in deep till a leaf of a branch then go up to root again 
 ###### and go bottom to another branch and so on. There are three types of traversal in DFS, Preorder, inorder and postorder.
-###### 
-###### 
-###### 
+1. Max depth of the tree - pass 1+n depth for each recursive call to find the max depth
+2. Validate tree - with min max traverse the tree in preorder to find if any non confirming node. 
+3. Mirror of the tree - compare two instance of same tree to check if they are mirror or not
 
